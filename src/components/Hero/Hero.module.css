@@ -1,0 +1,26 @@
+.hero{
+  background-image: url('/background.png');
+  height:100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding:0rem 1rem;
+  color: white;
+}
+
+.welcome{
+  font-size:30px;
+  color: orange;
+}
+h2{
+  font-size:80px;
+  font-weight: 900;
+  text-transform: uppercase;
+  
+}
+.hero_left{
+  flex-basis: 50%;
+}
+.hero_right{
+  flex-basis: 50%;
+}
